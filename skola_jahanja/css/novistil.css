@@ -1,0 +1,185 @@
+
+nav .navbar-nav li {
+	padding-left: 10px;
+}
+
+body{
+	background-color: rgb(170,169,173);
+}
+#brand-img
+{
+	height: 80px;
+
+}
+.navbar
+{
+	background-color: black ;
+}
+
+.active{
+	background-color: rgba(255,255,255,0.3);
+}
+
+.dropdown-menu .active{
+	background-color: rgba(255,255,255,0.3);
+}
+
+.navbar .nav-item a {
+	font-weight: bolder;
+	font-size: 1.3vw;
+	color: white ;
+	text-align: right ;
+}
+
+
+.navbar .dropdown-menu{
+	background-color: black ;
+}
+
+.navbar .nav-item a:hover {
+	background-color: white  ;
+	color: black  ;
+	transition: 0.8s ease;
+}
+
+.navbar .nav-item a.active{
+	background-color: white  ;
+	color: black  ;
+
+} 
+.navbar .dropdown-menu a:hover{
+	background-color: white  ;
+	color: black  ;
+	transition: 0.8s ease;
+}
+
+.logo .navbar-brand{
+	padding-left: 1.5em  ;
+}
+
+#baner{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/pozadina.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+/*Tekst na pocetnoj slici*/
+.title{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	}
+
+.title h1{
+	color: white;
+	font-size: 100px;
+	font-weight: bolder;
+}
+
+
+
+.dr-mr li{
+	display: inline-block;
+	transform: translate(-30%,-40%);
+}
+/*Drustvene mreze pocetna strana */
+
+.dr-mr li a{
+	text-decoration: none;
+	color: white;
+	font-size: 3em;
+}
+
+.pozadina{
+	background:rgba(33,33,33,0.8);
+	color: white;
+	font-style: italic;
+	font-size: 1em;
+
+}
+
+
+footer{
+	background-color: black;
+	color: white;
+	font-size: 0.9em;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+footer .col-3 a{
+	color: white;
+	font-size: 2em;
+	display: inline-block;
+	padding-top: 20px;
+
+}
+
+
+
+.tekst{
+	
+	text-align: center;
+	font-size: 17px
+}
+
+.tekst .col-6{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+
+
+
+
+#baner2{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/baner1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.preuzmi a:hover{
+	text-decoration: underline;
+}
+
+#fixed{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+#mapasajta ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+#mapasajta ul li a:hover{
+	color:white;
+}
+
+#linkovi a{
+	color:white;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#linkovi a:hover{
+	color:grey;
+}
+
+.dropdown-item{
+	text-align:  left !important;
+}
+
+h2{
+	text-align: center;
+}
